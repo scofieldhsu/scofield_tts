@@ -1,0 +1,74 @@
+use Android Studio to create a project: ScofieldTTS
+
+create a project, scofield_tts, on bitbucket website
+
+$ cd ScofieldTTS
+
+$ git init
+Initialized empty Git repository in /xxx/ScofieldTTS/.git/
+
+$ git remote add origin https://scofieldhsu@bitbucket.org/scofieldhsu/scofield_tts.git
+
+$ git remote -v
+origin	https://scofieldhsu@bitbucket.org/scofieldhsu/scofield_tts.git (fetch)
+origin	https://scofieldhsu@bitbucket.org/scofieldhsu/scofield_tts.git (push)
+
+$ git add *
+The following paths are ignored by one of your .gitignore files:
+ScofieldTTS.iml
+local.properties
+Use -f if you really want to add them.
+
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   app/.gitignore
+	new file:   app/build.gradle
+	new file:   app/proguard-rules.pro
+	new file:   app/src/androidTest/java/scofield/orz/scofieldtts/ExampleInstrumentedTest.java
+	new file:   app/src/main/AndroidManifest.xml
+	new file:   app/src/main/java/scofield/orz/scofieldtts/MainActivity.java
+	new file:   app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+	new file:   app/src/main/res/drawable/ic_launcher_background.xml
+	new file:   app/src/main/res/layout/activity_main.xml
+	new file:   app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+	new file:   app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+	new file:   app/src/main/res/mipmap-hdpi/ic_launcher.png
+	new file:   app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+	new file:   app/src/main/res/mipmap-mdpi/ic_launcher.png
+	new file:   app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+	new file:   app/src/main/res/mipmap-xhdpi/ic_launcher.png
+	new file:   app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+	new file:   app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+	new file:   app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+	new file:   app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+	new file:   app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+	new file:   app/src/main/res/values/colors.xml
+	new file:   app/src/main/res/values/strings.xml
+	new file:   app/src/main/res/values/styles.xml
+	new file:   app/src/test/java/scofield/orz/scofieldtts/ExampleUnitTest.java
+	new file:   build.gradle
+	new file:   gradle.properties
+	new file:   gradle/wrapper/gradle-wrapper.jar
+	new file:   gradle/wrapper/gradle-wrapper.properties
+	new file:   gradlew
+	new file:   gradlew.bat
+	new file:   settings.gradle
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	.idea/
+
+
+$ git commit -m 'initiate this project'
+
+$ git push -u origin master
+
+
