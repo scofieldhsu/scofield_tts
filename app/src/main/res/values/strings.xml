@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ScofieldTTS</string>
+    <string name="app_name">Text bot Speech by Scofield</string>
+    <string name="speech">Read the text</string>
+    <string name="record">Record to file</string>
 </resources>
